@@ -9,10 +9,10 @@
 		<version>3.4.1</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.vertex.ws.app</groupId>
-	<artifactId>websocket-vertex-demo</artifactId>
+	<groupId>com.spartan.ws.app</groupId>
+	<artifactId>socket-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>websocket-vertex-demo</name>
+	<name>socket-service</name>
 	<description>Demo project for Spring Boot with Vetex</description>
 	<url />
 	<licenses>
@@ -34,8 +34,13 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>org.springframework.boot</groupId>
+					<artifactId>spring-boot-starter-tomcat</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
-
 
 		<!-- Jackson for JSON -->
 		<dependency>
