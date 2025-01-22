@@ -1,4 +1,4 @@
-package com.vertex.ws.handlers;
+package com.spartan.ws.handlers;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -6,7 +6,7 @@ import java.util.Map;
 import org.springframework.stereotype.Component;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.vertex.ws.message.ResponseMessage;
+import com.spartan.ws.message.ResponseMessage;
 
 import lombok.extern.slf4j.Slf4j;
 

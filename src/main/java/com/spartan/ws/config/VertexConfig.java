@@ -1,4 +1,4 @@
-package com.vertex.ws.config;
+package com.spartan.ws.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

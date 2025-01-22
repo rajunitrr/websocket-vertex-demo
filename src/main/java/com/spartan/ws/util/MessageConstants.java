@@ -1,4 +1,4 @@
-package com.vertex.ws.util;
+package com.spartan.ws.util;
 
 public class MessageConstants {
 

@@ -1,12 +1,12 @@
-package com.vertex.ws.config;
+package com.spartan.ws.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 
-import com.vertex.ws.handlers.MessageHandlerUtil;
-import com.vertex.ws.handlers.WebSocketMessageHandler;
+import com.spartan.ws.handlers.MessageHandlerUtil;
+import com.spartan.ws.handlers.WebSocketMessageHandler;
 
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.Vertx;

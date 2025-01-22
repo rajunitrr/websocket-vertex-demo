@@ -1,4 +1,4 @@
-package com.vertex.ws.message;
+package com.spartan.ws.message;
 
 public class ResponseMessage<T> {
 

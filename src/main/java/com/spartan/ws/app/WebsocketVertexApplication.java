@@ -1,4 +1,4 @@
-package com.vertex.ws.app;
+package com.spartan.ws.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

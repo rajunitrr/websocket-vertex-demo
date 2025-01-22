@@ -1,4 +1,4 @@
-package com.vertex.ws.handlers;
+package com.spartan.ws.handlers;
 
 import io.vertx.core.http.ServerWebSocket;
 
