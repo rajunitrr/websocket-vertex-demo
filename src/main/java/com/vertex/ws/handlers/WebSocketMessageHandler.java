@@ -28,6 +28,8 @@ public class WebSocketMessageHandler {
 			JsonObject jsonMessage = new JsonObject(message);
 			String msgId = jsonMessage.getString("msgId");
 
+			log.info("msgId:"+msgId);
+			
 			if (msgId == null || msgId.isEmpty() || null == msgId) {
 				socket.writeTextMessage(errorMessage);
 				return;
