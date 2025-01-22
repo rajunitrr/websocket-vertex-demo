@@ -6,3 +6,5 @@
 **/.settings
 **/.metadata 
 **/.gradle
+**/./target/
+
