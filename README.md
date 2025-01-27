@@ -1,6 +1,9 @@
 "# websocket-vertex-demo" 
 1. Url : ws://localhost:9100
 
+<img width="682" alt="image" src="https://github.com/user-attachments/assets/abff3afb-8f08-450e-97ab-446d4ccdb719" />
+
+
 2.  Payload for Authentication
 
   { 
@@ -11,6 +14,4 @@
    
   }
 
-Test it from PostMan or any other ws client
-
-![image](https://github.com/user-attachments/assets/13995400-1c3c-447a-ada4-d3e3c0336a0d)
+<img width="693" alt="image" src="https://github.com/user-attachments/assets/e4c4f112-650e-4c26-979a-125e43e1a8dc" />
